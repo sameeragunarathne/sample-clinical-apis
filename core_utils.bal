@@ -1,4 +1,4 @@
-public type MedinetPatient record {
+public type SamplePatient record {
     string title?;
     string pronouns?;
     string firstName?;
@@ -13,11 +13,11 @@ public type MedinetPatient record {
     string contactMethod?;
     boolean isAccountActive?;
     boolean isDeceased?;
-    MedinetAddress address?;
+    Address address?;
     IncomingReferrals[] incomingReferrals?;
 };
 
-public type MedinetAddress record {
+public type Address record {
     string addressLine1?;
     string postCode?;
     string city?;

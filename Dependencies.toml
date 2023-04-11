@@ -305,7 +305,7 @@ modules = [
 
 [[package]]
 org = "sameerag"
-name = "medinet_clinical_apis"
+name = "sample_clinical_apis"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
@@ -314,7 +314,7 @@ dependencies = [
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
-	{org = "sameerag", packageName = "medinet_clinical_apis", moduleName = "medinet_clinical_apis"}
+	{org = "sameerag", packageName = "sample_clinical_apis", moduleName = "sample_clinical_apis"}
 ]
 
 
